@@ -1,11 +1,10 @@
 import "./App.css";
-import User from "./User";
+import HomeContainer from "./container/HomeContainer";
 
 function App() {
   return (
     <div className='App'>
-      <h1>Redux App</h1>
-      <User data={{ name: "Ankush Wankar", age: 42 }} />
+      <HomeContainer />
     </div>
   );
 }
